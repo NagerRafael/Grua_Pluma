@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ParamWithValueList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <version>20080502</version>
+  <parameterTypes>
+    <ParamType>
+      <typeName>Inventor</typeName>
+      <typeCode>0</typeCode>
+    </ParamType>
+    <ParamType>
+      <typeName>String</typeName>
+      <typeCode>1</typeCode>
+    </ParamType>
+    <ParamType>
+      <typeName>Boolean</typeName>
+      <typeCode>2</typeCode>
+    </ParamType>
+  </parameterTypes>
+  <parameters>
+    <ParamWithValue>
+      <name>Log_Bra</name>
+      <typeCode>in</typeCode>
+      <value>sqrt(pow(BC;2 su) + pow(BE;2 su))</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>Log_Viga</name>
+      <typeCode>in</typeCode>
+      <value>BE + EF0</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>CD</name>
+      <typeCode>in</typeCode>
+      <value>100 in</value>
+      <comment>a</comment>
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>BC</name>
+      <typeCode>in</typeCode>
+      <value>58 in</value>
+      <comment>b</comment>
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>AB</name>
+      <typeCode>in</typeCode>
+      <value>29 in</value>
+      <comment>c</comment>
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>BE</name>
+      <typeCode>in</typeCode>
+      <value>58 in</value>
+      <comment>d</comment>
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>EF0</name>
+      <typeCode>in</typeCode>
+      <value>86 in</value>
+      <comment>e</comment>
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>Log_Col</name>
+      <typeCode>in</typeCode>
+      <value>AB + BC + CD</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d0</name>
+      <typeCode>in</typeCode>
+      <value>AB</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d1</name>
+      <typeCode>gr</typeCode>
+      <value>0.00 gr</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d2</name>
+      <typeCode>in</typeCode>
+      <value>Log_Viga</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+  </parameters>
+</ParamWithValueList>
